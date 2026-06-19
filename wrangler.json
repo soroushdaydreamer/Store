@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sinanoor-store",
+  "compatibility_date": "2025-06-19",
+  "pages_build_output_dir": "dist",
+  "kv_namespaces": [
+    {
+      "binding": "STORE_KV",
+      "id": "your-kv-namespace-id-here"
+    }
+  ],
+  "vars": {
+    "APP_NAME": "سیستم مدیریت فروشگاه سینا نور",
+    "APP_VERSION": "1.0.0"
+  }
+}
